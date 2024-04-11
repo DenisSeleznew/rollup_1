@@ -1,0 +1,22 @@
+body {
+	background-color: rgb(110, 108, 108);
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	padding: 2rem;
+	&:hover {
+		width: 300px;
+	}
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	color: rgb(43, 171, 226);
+	&:hover {
+		color: brown;
+	}
+}
